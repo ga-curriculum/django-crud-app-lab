@@ -1,40 +1,77 @@
-# ![[tktk Module Name] - Setup](./assets/hero.png)
+# ![Django CRUD App Lab - Setup](./assets/hero.png)
 
 ## Setup
 
-Open your Terminal application and navigate to your `~/code/ga/labs` directory:
+Open your Terminal application and navigate to your `~/code/ga/lessons` directory:
 
 ```bash
-cd ~/code/ga/labs
+cd ~/code/ga/lessons
 ```
 
-<!-- tktk if starter code exists -->
-
-Fork the [[tktk Repo Name]](https://git.generalassemb.ly/modular-curriculum-all-courses/[tktk Repo Name]) repository.
-
-<!-- tktk if starting from scratch  -->
-
-Make a new repository on [GitHub](https://github.com/) named [tktk Repo Name].
-
-<!-- tktk -->
-
-Clone a copy of your remote repo locally by using the `git clone` command:
+Create a new repository on [GitHub](https://github.com/) named `django-crud-app-lab`.
 
 ```bash
-git clone https://github.com/<your-username>/[tktk Repo Name].git [tktk Personal GitHub for new labs]
-git clone https://git.generalassemb.ly/<your-username>/[tktk Repo Name].git [tktk GA enterprise GitHub for starter code]
+git clone https://github.com/<your-username>/django-crud-app-lab.git
 ```
 
-> 📚 Note: In the link above, where it says `<your-username>`, you should see the username from your GitHub account.
+> 🚨 Do not copy the above command. It will not work. Your GitHub username will replace <github-username> (including the < and >) in the URL above.
 
-Next, `cd` into your new cloned directory, `[tktk Repo Name]`:
+Next, `cd` into your new cloned directory, `django-crud-app-lab`:
+
 
 ```bash
-cd [tktk Repo Name]
+cd django-crud-app-lab
+```
+
+Initialize a new virtual environment inside your project directory and install Django:
+
+```bash
+pipenv install django
+```
+
+This command will create a new `Pipfile` and `Pipfile.lock` in your project directory, specifying Django as a dependency.
+
+Activate the virtual environment:
+
+```bash
+pipenv shell
+```
+
+> With your virtual environment activated you should see a slight change in your terminal, with the virtual environment folder name listed to the left of your command line prompt.
+
+## Name your Project
+
+Before you begin your lab you'll need to choose a name for your project, If you already know the model you'll use, consider calling it something related to that resource. ***Ex: finchcollector, nationalparks, bloghub***
+
+Here are some Django guidelines and naming conventions:
+
+1. The project name should reflect its functionality or purpose. 
+2. Avoid naming projects after Python or Django internal components, like `django` or `test`. ***Ex: djangoproject, djangomusic, testproject***
+3. Python doesn’t allow hyphens in module names because they are interpreted as minus signs. Use underscores if needed, although single-word names are preferred for simplicity.
+4. It's a Python convention to name packages all in lowercase to avoid issues with case-sensitive filesystems.
+
+### Got a name? Great.
+
+Start a new Django project within your virtual environment:
+
+```bash
+django-admin startproject <mycoolapp>
+```
+
+Once the project is created, `cd` into the new `<mycoolapp>` directory:
+
+```bash
+cd <mycoolapp>
 ```
 
 Open the project's folder in your code editor:
 
 ```bash
 code .
+```
+
+To deactivate the virtual environment when you're done, simply type:
+
+```bash
+exit
 ```
