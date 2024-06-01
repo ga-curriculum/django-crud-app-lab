@@ -1,4 +1,4 @@
-# ![Django CRUD App Lab](./assets/hero.png)
+# ![Django CRUD App Lab](../assets/hero.png)
 
 ## About
 
@@ -14,5 +14,5 @@ You are encouraged to get creative with the concept of your application—whethe
 
 ## Content
 
-- [Setup](./setup/README.md)
-- [Exercise](./exercise/README.md)
+- [Setup](../setup/README.md)
+- [Exercise](../exercise/README.md)
