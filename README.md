@@ -14,7 +14,7 @@ You are encouraged to get creative with the concept of your application—whethe
 
 ## Time to complete
 
-Estimated time to complete core lab exercise: ** 8 - 12 hours**
+Estimated time to complete core lab exercise: **8 - 12 hours**
 
 ## Content
 
