@@ -1,4 +1,7 @@
-# ![Django CRUD App Lab - Setup](./assets/hero.png)
+<h1>
+  <span class="headline">Django CRUD App Lab</span>
+  <span class="subhead">Setup</span>
+</h1>
 
 ## Setup
 
@@ -37,7 +40,7 @@ Activate the virtual environment:
 pipenv shell
 ```
 
-> With your virtual environment activated you should see a slight change in your terminal, with the virtual environment folder name listed to the left of your command line prompt.
+> 🧠 With your virtual environment activated you should see a slight change in your terminal, with the virtual environment folder name listed to the left of your command line prompt.
 
 ## Name your Project
 
@@ -70,7 +73,7 @@ Open the project's folder in your code editor:
 code .
 ```
 
-To deactivate the virtual environment when you're done, simply type:
+To deactivate the virtual environment when you're done, type:
 
 ```bash
 exit

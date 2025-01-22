@@ -1,4 +1,7 @@
-# ![Django CRUD App Lab - Exercise](./assets/hero.png)
+<h1>
+  <span class="headline">Django CRUD App Lab</span>
+  <span class="subhead">Exercise</span>
+</h1>
 
 ## Build Your Own Full Stack Django Application
 
